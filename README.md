@@ -10,6 +10,10 @@ This sample **requires** prerequisites in order to run.
 
 ### Install Python 3.6
 
+## Running Virtual Environment
+- Create venv `python -m venv venv`
+- Run venv `venv\Scripts\activate.bat`
+
 ## Running the sample
 - Run `pip install -r requirements.txt` to install all dependencies
 - Run `python app.py`
