@@ -1,0 +1,7 @@
+botbuilder-integration-aiohttp>=4.14.0
+langchain
+tabulate
+openai
+pandas
+pyodbc
+
