@@ -41,8 +41,18 @@ This sample **requires** prerequisites in order to run.
 - Enter a Bot URL of `http://localhost:3978/api/messages`
 - Enter MicrosoftAppId and MicrosoftAppPassword
 
-## Enabled Channels (Teams)
+### How to use
 
+- Talk to Bot `Say Hello or whathever you want to ask`
+- Summary the data please use keyword 'Summary' 
+	- Example, `Summary the data : please sum total price for each year and CouncilArea and convert total price into $`
+- Summary the data and export to csv, please use keyword 'Summary and csv' 
+	- Example, `Summary the data and export to csv : please sum total price for each year and CouncilArea and convert total price into $`
+
+## Enabled Channels (Teams)
+In Teams, export to csv still disable. But you can ask the summary or report in chat section.
+
+Enable Teams Channel
 ### Go to Azure Portal -> Azure Bot -> Channels -> Microsoft Teams -> Enable
 
 
