@@ -18,6 +18,12 @@ This sample **requires** prerequisites in order to run.
 - Run `pip install -r requirements.txt` to install all dependencies
 - Run `python app.py`
 
+## Convert localhost into public IP
+- Install and settings ngrok (https://ngrok.com/docs/getting-started/)
+- Run ngrok `ngrok http 3978`
+- Copy link https to Azure
+
+### Go to Azure Portal -> Azure Bot -> Configuration -> Messaging endpoint -> `https....ngrok-free.app/api/messages` 
 
 ## Testing the bot using Bot Framework Emulator
 
@@ -29,6 +35,11 @@ This sample **requires** prerequisites in order to run.
 
 - Launch Bot Framework Emulator
 - Enter a Bot URL of `http://localhost:3978/api/messages`
+- Enter MicrosoftAppId and MicrosoftAppPassword
+
+## Enabled Channels (Teams)
+
+### Go to Azure Portal -> Azure Bot -> Channels -> Microsoft Teams -> Enable
 
 
 ## Further reading
