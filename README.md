@@ -1,8 +1,11 @@
 # Summary_Bot
 Simple Discussion and Provide Summary based on User Input using Data from User
 
+
 Based on sample echo_bot
+
 A bot that echoes back user response.
+
 This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
 
 ## Prerequisites
