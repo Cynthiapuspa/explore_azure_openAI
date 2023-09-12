@@ -12,7 +12,7 @@ This bot has been created using [Bot Framework](https://dev.botframework.com), i
 
 This sample **requires** prerequisites in order to run.
 
-### Install Python 
+### Install Python 3.6
 
 ## Running Virtual Environment
 - Create venv `python -m venv venv`
